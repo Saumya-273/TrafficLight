@@ -1,3 +1,4 @@
+```
 Project  Report on Traffic Light Dectector
 Index:
 1.	Introduction
@@ -8,6 +9,7 @@ Introduction:
 This project implements an AI to identify which traffic sign appears in a photograph. It is designed with Python. It has a comprehensive and large standard library that has automatic memory management and dynamic features. The ones used in this project are OpenCV, TensorFlow and Scikit-learn. 
 The project was tested and it turned out to be 96.06% accurate.
 
+```
 ```
 $ python traffic.py gtsrb
 Train on 15984 samples
@@ -33,7 +35,7 @@ Epoch 10/10
 15984/15984 [==============================] - 8s 528us/sample - loss: 0.1961 - accuracy: 0.9418
 10656/10656 - 2s - loss: 0.1392 - accuracy: 0.9606
 ```
-
+```
 Underlying Concepts:
 Gradient Descent
 Algorithm for minimizing loss when training a neural network.
@@ -85,6 +87,6 @@ o	The function is platform-independent: that is to say, it works regardless of o
 •	The get_model function returns a compiled neural network model.
 o	 The input to the neural network will be of the shape (IMG_WIDTH, IMG_HEIGHT, 3) (that is, an array representing an image of width IMG_WIDTH, height IMG_HEIGHT, and 3 values for each pixel for red, green, and blue).
 o	The output layer of the neural network has NUM_CATEGORIES units, one for each of the traffic sign categories.
-
+```
 
 
